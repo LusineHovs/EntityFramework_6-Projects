@@ -7,16 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ConsoleApplication1
+namespace ModelFirst
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class StudentsEntities : DbContext
+    public partial class ModelContainer : DbContext
     {
-        public StudentsEntities()
-            : base("name=StudentsEntities")
+        public ModelContainer()
+            : base("name=ModelContainer")
         {
         }
     
@@ -25,5 +25,6 @@ namespace ConsoleApplication1
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<StudentInfo> StudentInfoes { get; set; }
     }
 }
