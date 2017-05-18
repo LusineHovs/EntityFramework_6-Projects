@@ -10,6 +10,12 @@ namespace CodeFirst
     {
         static void Main(string[] args)
         {
+            Model context = new Model();
+           var list = context.StudentInfos.ToList();
+            foreach (StudentInfo item in list)
+            {
+                Console.WriteLine($"{item.FirstName}, {item.LastName}, {item.Age}");
+            }
         }
     }
 }
