@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{CAD17FA1-F3A1-466D-AFAA-F7C8C68E203F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseFirst", "Entity\DataBaseFirst.csproj", "{CAD17FA1-F3A1-466D-AFAA-F7C8C68E203F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelFirst", "ModelFirst\ModelFirst.csproj", "{C0BAC578-250C-4CB8-8DFF-CC6FD998CA6B}"
 EndProject
