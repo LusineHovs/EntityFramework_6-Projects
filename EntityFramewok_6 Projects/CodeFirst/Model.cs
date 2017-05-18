@@ -12,7 +12,6 @@ namespace CodeFirst
         {
         }
 
-        
          public virtual DbSet<StudentInfo> StudentInfos { get; set; }
     }
 
